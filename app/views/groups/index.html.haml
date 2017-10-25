@@ -1,3 +1,5 @@
+%h3 Sync any Soundcloud song or playlist.
+
 = form_tag('/groups', method: 'post') do
-  = text_field_tag(:url)
-  = submit_tag('Create')
+  = text_field_tag(:url, 'https://soundcloud.com/emancipator/sets/seven-seas')
+  = submit_tag('Start a Group')
