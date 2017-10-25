@@ -1,4 +1,5 @@
-id = location.pathname.match(/\/(\d+)/)[1]
+match = location.pathname.match(/\/(\d+)/)
+id    = match?[1]
 
 if id
   App.groupChannel = App.cable.subscriptions.create { channel: 'GroupChannel', id: id },
