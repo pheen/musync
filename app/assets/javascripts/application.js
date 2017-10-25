@@ -12,4 +12,10 @@
 //
 //= require rails-ujs
 //= require turbolinks
+
+//= require angular
+//= require angular-route
+//= require angular-animate
+//= require underscore
+
 //= require_tree .

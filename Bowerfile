@@ -1,0 +1,12 @@
+# A sample Bowerfile
+# Check out https://github.com/42dev/bower-rails#ruby-dsl-configuration for more options
+
+asset 'jquery', '3.2.1'
+asset 'jquery-ujs', '1.2.2'
+asset 'jquery-ui', '1.12.0'
+asset 'angular', '1.6.4'
+asset 'angular-animate', '1.6.4'
+asset 'angular-route', '1.6.4'
+asset 'angular-mocks', '1.6.4'
+asset 'angular-wizard'
+asset 'underscore'

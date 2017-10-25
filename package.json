@@ -1,5 +1,8 @@
 {
   "name": "musync",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bower": "^1.8.2",
+    "node": "^8.3.0"
+  }
 }

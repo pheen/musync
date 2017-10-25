@@ -1,0 +1,35 @@
+// Place all the styles related to the groups controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+input[type="text"] {
+  height: 50%;
+  height: 5vw;
+  width: 60vw;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  position: relative;
+  top: 0.3vw;
+  width: 10vw;
+  height: 5.5vw;
+  border: 0;
+  border-radius: 3px;
+  background: #f50;
+  background: linear-gradient(#f70,#f30);
+  color: #fff;
+  font-size: 1.5vw;
+  font-weight: bold;
+}

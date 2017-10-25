@@ -4,6 +4,7 @@
 //= require action_cable
 //= require_self
 //= require_tree ./channels
+//= require_tree ./cable/subscriptions
 
 (function() {
   this.App || (this.App = {});

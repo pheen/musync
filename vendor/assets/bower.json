@@ -1,0 +1,14 @@
+{
+  "name": "dsl-generated-dependencies",
+  "dependencies": {
+    "jquery": "3.2.1",
+    "jquery-ujs": "1.2.2",
+    "jquery-ui": "1.12.0",
+    "angular": "1.6.4",
+    "angular-animate": "1.6.4",
+    "angular-route": "1.6.4",
+    "angular-mocks": "1.6.4",
+    "angular-wizard": "latest",
+    "underscore": "latest"
+  }
+}
