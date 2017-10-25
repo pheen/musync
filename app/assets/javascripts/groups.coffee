@@ -27,7 +27,7 @@ $ ->
         if diff >= tolerance
           widget.seekTo(data.position)
 
-  if $('#user_id').val() # cookies.signed[:user_id] is present
+  if $('#owner').val() # cookies.signed[:user_id] is present
     widget.bind Events.READY, ->
       widget.bind Events.PLAY_PROGRESS, (progress) ->
         window.musync.updateGroup(progress)
